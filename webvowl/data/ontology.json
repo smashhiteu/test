@@ -1,0 +1,285 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "title" : {
+      "undefined" : "smashHit Core Ontology"
+    },
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "version" : "2023/03/28",
+    "author" : [ "Amar Tauqeer (University of Innsbruck)", "Anelia Kurteva (University of Innsbruck)", "Rainer Hilscher (University of Innsbruck)", "Albert Zilverberg (ATB Bremen)", "Ana Correia (ATB Bremen)", "Thorben Funke (Leibniz University Hannover)", "Stefan Schestakov (Leibniz University Hannover)", "Elena Demidova (University of Bonn)", "Kevin Nagorny (ATB Bremen)", "Anna Fensel (University of Innsbruck)", "Tek Raj Chhetri (University of Innsbruck)" ],
+    "description" : {
+      "undefined" : "The smashHit Core ontology extends the scope of existing ontologies by providing an integrated semantic model for multiple domains such as consent, contracts, licenses and sensor data. This work is part of the smashhit project, which is developing a framework for trusted and secure sharing of data streams from both personal and industrial platforms needed to build sectorial and cross-sectorial services. The ontology models multiple GDPR legal bases such as consent and contracts, but is not limited to them. Concepts such as metadata, sensor data, data processing, involved entities, which can be useful for compliance checking, are modelled as well."
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "label"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Rainer Hilscher (University of Innsbruck)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Albert Zilverberg (ATB Bremen)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Ana Correia (ATB Bremen)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Elena Demidova (University of Bonn)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Amar Tauqeer (University of Innsbruck)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Stefan Schestakov (Leibniz University Hannover)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Tek Raj Chhetri (University of Innsbruck)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Anna Fensel (University of Innsbruck)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Anelia Kurteva (University of Innsbruck)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Kevin Nagorny (ATB Bremen)",
+        "type" : "label"
+      }, {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Thorben Funke (Leibniz University Hannover)",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "en",
+        "value" : "smashHit project consortium partners (This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 871477)",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "2023/03/28",
+        "type" : "label"
+      }, {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "0.5",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "undefined",
+        "value" : "The adoption of GDPR has resulted in a significant shift in how the data of European Union citizens is handled. A variety of data sharing challenges in scenarios such as smart cities have arised, especially, when attempting to semantically represent GDPR legal basis, such as consent, contracts and the data types and specific data sources related to them. Many ontologies that model GDPR exist, however, they focus mainly on consent. In order to represent other GDPR basis such as contracts, multiple ontologies need to be reused. The process is time-consuming and requires expert knowledge of semantics. To solve this challenge, we present the smashHit Core ontology, which provides an unified and coherent model for both consent and contracts, as well as the sensor data and data processing associated with them, in one place. The ontology was developed in response to real-world data sharing use cases in the insurance and smart cities domains.",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "smashHit Core Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#Obligation",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "instances" : 0,
+    "id" : "1"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#License",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "instances" : 0,
+    "id" : "12"
+  }, {
+    "iri" : "http://mmisw.org/ont/univmemphis/sensor#Sensor",
+    "baseIri" : "http://mmisw.org/ont/univmemphis/sensor",
+    "instances" : 0,
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#Resource",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#Agent",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "instances" : 0,
+    "id" : "10"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#ContractCategory",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "instances" : 0,
+    "id" : "23"
+  }, {
+    "iri" : "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract",
+    "baseIri" : "https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts",
+    "instances" : 0,
+    "id" : "8"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#ObligationState",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "instances" : 0,
+    "id" : "3"
+  }, {
+    "iri" : "https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location",
+    "baseIri" : "https://www.omg.org/spec/LCC/Countries/CountryRepresentation",
+    "instances" : 0,
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#TemporalEntity",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/GConsent#Consent",
+    "baseIri" : "https://w3id.org/GConsent",
+    "instances" : 0,
+    "id" : "42"
+  } ],
+  "property" : [ {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#is_send_by",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#hasContractCategory",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "range" : "23",
+    "domain" : "8",
+    "subproperty" : [ "24", "25" ],
+    "attributes" : [ "functional", "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#is_received_by",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#actedOnBehalfOf",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "10",
+    "superproperty" : [ "33" ],
+    "domain" : "10",
+    "attributes" : [ "functional", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasInfluencedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "10",
+    "domain" : "8",
+    "subproperty" : [ "32" ],
+    "attributes" : [ "functional", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.org/dc/terms/creator",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "functional", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#requestedBy",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "range" : "10",
+    "domain" : "42",
+    "attributes" : [ "functional", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://ontologies.atb-bremen.de/smashHitCore#hasStates",
+    "baseIri" : "http://ontologies.atb-bremen.de/smashHitCore",
+    "range" : "3",
+    "domain" : "1",
+    "subproperty" : [ "2", "4", "5", "14" ],
+    "attributes" : [ "functional", "object" ],
+    "id" : "60"
+  } ]
+}
